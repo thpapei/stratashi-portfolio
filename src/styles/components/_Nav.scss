@@ -1,0 +1,52 @@
+.nav {    
+  background-color: $transparent-black;
+  display: flex;
+  justify-content: center;
+  position: absolute;  
+  width: 100vw;
+
+  ul {    
+    display: flex;    
+    justify-content: space-evenly;
+    list-style-type: none;    
+    padding: 0;    
+    margin: $m-size 0;    
+    max-width: 900px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    
+
+    li {
+      color: $off-white;
+      cursor: pointer;
+      font-size: $l-size;
+      position: relative;
+      transition: color 200ms ease-in-out;              
+
+      &:hover,
+      &:active {
+        color: $primary-color;
+        animation: none;
+        animation: skewEffect 1500ms alternate infinite ease-in;              
+      }
+    }
+
+    .visited {
+      color: $primary-color;
+    }
+  }
+}
+
+@keyframes skewEffect {
+  0% { transform: skewX(0deg) }
+  25% {transform: skewX(20deg)}
+  30% {transform: skewX(79deg)}
+  40% {transform: skewX(10deg)}
+  50% {transform: skewX(40deg)}
+  55% {transform: skewX(10deg)}
+  60% {transform: skewX(400deg)}
+  65% {transform: skewX(50deg)}
+  70% {transform: skewX(20deg)}
+  100% {transform: skewX(0deg)}
+}
