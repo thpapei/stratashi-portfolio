@@ -2,7 +2,7 @@
   background-color: $transparent-black;
   display: flex;
   justify-content: center;
-  position: absolute;  
+  position: fixed;  
   width: 100vw;
 
   ul {    
@@ -32,7 +32,7 @@
       }
     }
 
-    .visited {
+    .active {
       color: $primary-color;
     }
   }
