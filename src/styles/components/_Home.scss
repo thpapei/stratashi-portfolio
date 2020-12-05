@@ -24,6 +24,8 @@
       top: 40%;
       rotate: 270deg;
       user-select: none;
+      transform: translateY(-1000%);
+      animation: moveIn 1000ms ease-in forwards;
       
       @media (min-width: $desktop-breakpoint){
         font-size: 3rem;
@@ -34,4 +36,12 @@
 
   
   }
+}
+
+@keyframes moveIn {
+  0% {transform: translateY(-1000%)}
+  95% {    
+    transform: translateY(10%) skewX(5deg);
+  }
+  100% {transform: translateY(0%)}
 }
