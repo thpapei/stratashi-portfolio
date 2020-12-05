@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stratashi-portfolio/static/css/main.5dda962f.chunk.css",
+    "main.css": "/stratashi-portfolio/static/css/main.3c1f3b06.chunk.css",
     "main.js": "/stratashi-portfolio/static/js/main.c8e26cf2.chunk.js",
     "main.js.map": "/stratashi-portfolio/static/js/main.c8e26cf2.chunk.js.map",
     "runtime-main.js": "/stratashi-portfolio/static/js/runtime-main.1514bb0f.js",
@@ -10,14 +10,14 @@
     "static/js/3.0fe73396.chunk.js": "/stratashi-portfolio/static/js/3.0fe73396.chunk.js",
     "static/js/3.0fe73396.chunk.js.map": "/stratashi-portfolio/static/js/3.0fe73396.chunk.js.map",
     "index.html": "/stratashi-portfolio/index.html",
-    "static/css/main.5dda962f.chunk.css.map": "/stratashi-portfolio/static/css/main.5dda962f.chunk.css.map",
+    "static/css/main.3c1f3b06.chunk.css.map": "/stratashi-portfolio/static/css/main.3c1f3b06.chunk.css.map",
     "static/js/2.a91fbd25.chunk.js.LICENSE.txt": "/stratashi-portfolio/static/js/2.a91fbd25.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/stratashi-portfolio/static/media/background.3007c1d5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1514bb0f.js",
     "static/js/2.a91fbd25.chunk.js",
-    "static/css/main.5dda962f.chunk.css",
+    "static/css/main.3c1f3b06.chunk.css",
     "static/js/main.c8e26cf2.chunk.js"
   ]
 }
