@@ -1,8 +1,7 @@
 .home {  
-  align-items: center;      
-  background-image: url('../../images/background.png');
-  background-size: cover;  
+  align-items: center;
   height: 100vh;
+  width: 100vw;
   display: flex;  
   justify-content: center;   
 
@@ -10,11 +9,29 @@
     align-items: center;  
     color: $off-white;
     display: flex;
-    flex-direction: column;  
-    justify-content: center;    
+    flex-direction: row;  
+    justify-content: space-between;    
 
     .content__item {
       margin: $l-size 0;
     }
+
+    .name {
+      cursor: default;      
+      font-size: 2.5rem;
+      position: absolute;
+      right: 45%;
+      top: 40%;
+      rotate: 270deg;
+      user-select: none;
+      
+      @media (min-width: $desktop-breakpoint){
+        font-size: 3rem;
+        top: 34%;
+        right: 67%;
+      }
+    }
+
+  
   }
 }
