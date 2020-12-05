@@ -1,47 +1,8 @@
-.home {  
-  align-items: center;
+.home {      
+  align-items: center;    
   height: 100vh;
-  width: 100vw;
-  display: flex;  
-  justify-content: center;   
-
-  .content {
-    align-items: center;  
-    color: $off-white;
-    display: flex;
-    flex-direction: row;  
-    justify-content: space-between;    
-
-    .content__item {
-      margin: $l-size 0;
-    }
-
-    .name {
-      cursor: default;      
-      font-size: 2.5rem;
-      position: absolute;
-      right: 45%;
-      top: 40%;
-      rotate: 270deg;
-      user-select: none;
-      transform: translateY(-1000%);
-      animation: moveIn 1000ms ease-in forwards;
-      
-      @media (min-width: $desktop-breakpoint){
-        font-size: 3rem;
-        top: 34%;
-        right: 67%;
-      }
-    }
-
-  
-  }
+  width: 100vw;     
+  display: flex;
+  justify-content: center;  
 }
 
-@keyframes moveIn {
-  0% {transform: translateY(-1000%)}
-  95% {    
-    transform: translateY(10%) skewX(5deg);
-  }
-  100% {transform: translateY(0%)}
-}

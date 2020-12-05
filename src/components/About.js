@@ -1,7 +1,12 @@
 const About = () => {
   return (
     <div className='about'>
-      <p>me</p>
+      <div className='about_title vertical'>
+        <h1>About   </h1>
+      </div>
+      <div>
+        <h3>My name is Stratashi</h3>
+      </div>
     </div>
   )
 };
