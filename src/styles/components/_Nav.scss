@@ -28,7 +28,7 @@
       &:active {
         color: $primary-color;
         animation: none;
-        animation: skewEffect 1500ms alternate infinite ease-in;              
+        animation: skewEffect 80ms alternate infinite ease-in;              
       }
     }
 
@@ -40,13 +40,13 @@
 
 @keyframes skewEffect {
   0% { transform: skewX(0deg) }
-  25% {transform: skewX(20deg)}
+  25% {transform: skewX(5deg)}
   30% {transform: skewX(79deg)}
   40% {transform: skewX(10deg)}
-  50% {transform: skewX(40deg)}
-  55% {transform: skewX(10deg)}
+  50% {transform: skewX(50deg)}
+  55% {transform: skewX(0deg)}
   60% {transform: skewX(400deg)}
-  65% {transform: skewX(50deg)}
+  65% {transform: skewX(0deg)}
   70% {transform: skewX(20deg)}
   100% {transform: skewX(0deg)}
 }
