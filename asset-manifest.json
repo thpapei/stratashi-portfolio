@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/stratashi-portfolio/static/css/main.01f31fc3.chunk.css",
-    "main.js": "/stratashi-portfolio/static/js/main.101c5762.chunk.js",
-    "main.js.map": "/stratashi-portfolio/static/js/main.101c5762.chunk.js.map",
-    "runtime-main.js": "/stratashi-portfolio/static/js/runtime-main.4d7645c4.js",
-    "runtime-main.js.map": "/stratashi-portfolio/static/js/runtime-main.4d7645c4.js.map",
-    "static/js/2.07ba21e8.chunk.js": "/stratashi-portfolio/static/js/2.07ba21e8.chunk.js",
-    "static/js/2.07ba21e8.chunk.js.map": "/stratashi-portfolio/static/js/2.07ba21e8.chunk.js.map",
-    "static/js/3.c24a8249.chunk.js": "/stratashi-portfolio/static/js/3.c24a8249.chunk.js",
-    "static/js/3.c24a8249.chunk.js.map": "/stratashi-portfolio/static/js/3.c24a8249.chunk.js.map",
+    "main.css": "/stratashi-portfolio/static/css/main.ef8fb400.chunk.css",
+    "main.js": "/stratashi-portfolio/static/js/main.a6c73fbc.chunk.js",
+    "main.js.map": "/stratashi-portfolio/static/js/main.a6c73fbc.chunk.js.map",
+    "runtime-main.js": "/stratashi-portfolio/static/js/runtime-main.63ddbccf.js",
+    "runtime-main.js.map": "/stratashi-portfolio/static/js/runtime-main.63ddbccf.js.map",
+    "static/js/2.8bdbb02c.chunk.js": "/stratashi-portfolio/static/js/2.8bdbb02c.chunk.js",
+    "static/js/2.8bdbb02c.chunk.js.map": "/stratashi-portfolio/static/js/2.8bdbb02c.chunk.js.map",
+    "static/js/3.fe4c8707.chunk.js": "/stratashi-portfolio/static/js/3.fe4c8707.chunk.js",
+    "static/js/3.fe4c8707.chunk.js.map": "/stratashi-portfolio/static/js/3.fe4c8707.chunk.js.map",
     "index.html": "/stratashi-portfolio/index.html",
-    "static/css/main.01f31fc3.chunk.css.map": "/stratashi-portfolio/static/css/main.01f31fc3.chunk.css.map",
-    "static/js/2.07ba21e8.chunk.js.LICENSE.txt": "/stratashi-portfolio/static/js/2.07ba21e8.chunk.js.LICENSE.txt",
-    "static/media/aa.9f470fbe.png": "/stratashi-portfolio/static/media/aa.9f470fbe.png",
+    "static/css/main.ef8fb400.chunk.css.map": "/stratashi-portfolio/static/css/main.ef8fb400.chunk.css.map",
+    "static/js/2.8bdbb02c.chunk.js.LICENSE.txt": "/stratashi-portfolio/static/js/2.8bdbb02c.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/stratashi-portfolio/static/media/background.5a223f26.jpg",
+    "static/media/aa.9f470fbe.png": "/stratashi-portfolio/static/media/aa.9f470fbe.png",
     "static/media/einstein-skeleton.981d6fdd.png": "/stratashi-portfolio/static/media/einstein-skeleton.981d6fdd.png",
     "static/media/finalMaskisabigbusiness.d4a9cb62.png": "/stratashi-portfolio/static/media/finalMaskisabigbusiness.d4a9cb62.png",
     "static/media/ghost_in_the_snow.58e5d359.jpeg": "/stratashi-portfolio/static/media/ghost_in_the_snow.58e5d359.jpeg",
@@ -32,9 +32,9 @@
     "static/media/zebratest4mask.a6298590.png": "/stratashi-portfolio/static/media/zebratest4mask.a6298590.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d7645c4.js",
-    "static/js/2.07ba21e8.chunk.js",
-    "static/css/main.01f31fc3.chunk.css",
-    "static/js/main.101c5762.chunk.js"
+    "static/js/runtime-main.63ddbccf.js",
+    "static/js/2.8bdbb02c.chunk.js",
+    "static/css/main.ef8fb400.chunk.css",
+    "static/js/main.a6c73fbc.chunk.js"
   ]
 }
