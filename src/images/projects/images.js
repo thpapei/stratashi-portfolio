@@ -15,7 +15,7 @@ import sketchash from './project-images/sketchashCrazinessinsanity.png';
 import tworl from './project-images/tworl.png';
 import zebra from './project-images/zebratest4mask.png';
 
-// thumbas
+// thumbs
 import aaThumb from './image-thumbnails/aa.jpg';
 import secondtshirtThumb from './image-thumbnails/secondtshirt.jpg';
 import einsteinskeletonThumb from './image-thumbnails/einstein-skeleton.jpg';
