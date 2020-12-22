@@ -18,12 +18,14 @@
       flex-direction: column;
       justify-content: center;      
 
-      input {
+      input, textarea {
         background-color: $dark-gray;
         border: 3px solid $dark-gray;
         border-radius: 3px;
         outline: none;
         padding: $xxs-size;
+        width: 90vw;
+        max-width: 600px;
 
         &:focus,
         &:focus-within,
@@ -31,6 +33,10 @@
         {
           border-bottom: 3px solid $primary-color;  
         }
+      }
+
+      textarea {        
+        height: 200px;
       }
       
     }

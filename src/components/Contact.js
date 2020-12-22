@@ -45,7 +45,7 @@ const EmailForm = () => {
 
           <div className='form-fields'>
             <div><label htmlFor='message'>Message:</label></div>
-            <Field id='message' name='message' />
+            <Field component='textarea' id='message' name='message' />
             <ErrorMessage name='message' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
           </div>
         </Form>
