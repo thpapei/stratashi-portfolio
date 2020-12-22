@@ -1,0 +1,36 @@
+.contact {
+  display: flex;
+  justify-content: center;    
+  padding: $l-size 0 $xl-size 0;
+  
+  form {
+  
+    .contact-title {
+      font-size: 10rem;
+    }
+
+    .form-fields {
+      margin: $l-size;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;      
+
+      input {
+        background-color: $dark-gray;
+        border: 3px solid $dark-gray;
+        border-radius: 3px;
+        outline: none;
+        padding: $xxs-size;
+
+        &:focus,
+        &:focus-within,
+        &:active        
+        {
+          border-bottom: 3px solid $primary-color;  
+        }
+      }
+      
+    }
+  }
+}
+
