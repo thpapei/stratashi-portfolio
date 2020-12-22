@@ -5,7 +5,7 @@ const PictureProjects = () => {
   return (
     <div className='picture-projects'>
       <h1 className='picture-projects-title'>Pictures</h1>
-      <ImageGallery items={images} />
+      <ImageGallery items={images} lazyLoad={true} />
     </div>
   );
 }
