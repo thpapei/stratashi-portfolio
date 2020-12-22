@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Fredericka the Great');
+@font-face {
+  font-family: 'MrChalk';  
+  src: local('MrChalk'),
+       url('../../fonts/MrChalk.otf') format('opentype'); /* Chrome 26+, Opera 23+, Firefox 39+ */       
+}
 
 * {
   margin: 0;
-  font-family: 'Frederika the Great', cursive;  
+  font-family: 'MrChalk';  
   font-size: $m-size;
   color: $off-white;
   box-sizing: border-box;
