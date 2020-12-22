@@ -1,4 +1,5 @@
 import About from "./About";
+import Contact from "./Contact";
 import Home from "./Home";
 import Nav from "./Nav";
 import PictureProjects from "./PictureProjects";
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       {/* <Projects /> */}
       <PictureProjects />
+      <Contact />
     </div>
   );
 }
