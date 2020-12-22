@@ -7,10 +7,7 @@
   height: 500px;
   width: 100vw;    
 
-  @media (min-width: $desktop-breakpoint) {
-    flex-flow: row;
-  }
-  .about__title {
-    font-size: 10rem;
+  .title {
+    font-size: $title;
   }
 }

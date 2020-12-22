@@ -3,7 +3,10 @@ import { images } from '../images/projects/images';
 
 const PictureProjects = () => {
   return (
-    <div><ImageGallery items={images} /></div>
+    <div className='picture-projects'>
+      <h1 className='picture-projects-title'>Pictures</h1>
+      <ImageGallery items={images} />
+    </div>
   );
 }
 

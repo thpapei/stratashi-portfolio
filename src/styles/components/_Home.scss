@@ -4,5 +4,9 @@
   width: 100vw;     
   display: flex;
   justify-content: center;  
+
+  .name {
+    font-size: $main-title;
+  }
 }
 

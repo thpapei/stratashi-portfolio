@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <div className='home'>
-      <div className='name vertical'>
-        <h1>Stratashi</h1>
+      <div>
+        <h1 className='name'>Stratashi</h1>
       </div>
     </div>
   )
