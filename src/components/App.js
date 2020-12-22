@@ -1,6 +1,8 @@
 import About from "./About";
 import Home from "./Home";
 import Nav from "./Nav";
+import PictureProjects from "./PictureProjects";
+import Projects from "./Projects";
 
 const App = () => {
   return (
@@ -8,6 +10,8 @@ const App = () => {
       <Nav />
       <Home />
       <About />
+      {/* <Projects /> */}
+      <PictureProjects />
     </div>
   );
 }
