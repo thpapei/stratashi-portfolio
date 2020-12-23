@@ -28,7 +28,9 @@ const Videos = () => {
         {
           isModalOpen &&
           <Modal setIsModalOpen={setIsModalOpen}>
-            <ReactPlayer url={url} controls={true} />
+            <div className='player-container'>
+              <ReactPlayer url={url} controls={true} width='80vw' />
+            </div>
           </Modal>
         }
       </div>
