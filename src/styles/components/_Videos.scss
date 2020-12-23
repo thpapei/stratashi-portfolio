@@ -1,11 +1,13 @@
 .videos {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   margin: $l-size;
+  height: 100vh;
+  width: 100vw;  
   h1 {
     text-align: center;
-    font-size: $title;
+    font-size: $title;    
   }
 
   .items {
