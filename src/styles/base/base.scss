@@ -12,4 +12,19 @@
   box-sizing: border-box;
 }
 
+.contact-button {
+  color: $off-white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 100ms ease-in;
+  font-size: $l-size;
+  outline: none;
+
+  &:hover,
+  &:active {
+    color: $primary-color;
+  }
+
+}
 

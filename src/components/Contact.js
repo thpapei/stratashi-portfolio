@@ -1,18 +1,29 @@
 import { Formik, Field, ErrorMessage, Form } from 'formik';
+import { useEffect } from 'react';
 import { string, object } from 'yup';
+import emailjs from 'emailjs-com';
 
 const EmailForm = () => {
 
   const initialValues = {
-
+    name: '',
+    email: '',
+    message: ''
   };
 
   const validationSchema = object({
-
+    name: string().max(30, 'Name too long').required('Required'),
+    email: string().email('Email is not valid').required('Required'),
+    message: string().max(10000, 'Your message is too long')
   });
 
   const onSubmit = (values, actions) => {
-
+    emailjs.send('service_mjiqvar', 'contact_form', values, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
   }
 
   return (
@@ -25,15 +36,9 @@ const EmailForm = () => {
         <Form>
           <h1 className='contact-title'>Contact</h1>
           <div className='form-fields'>
-            <div><label htmlFor='firstName'>First name </label></div>
-            <Field id='firstName' name='firstName' />
-            <ErrorMessage name='firstName' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
-          </div>
-
-          <div className='form-fields'>
-            <div><label htmlFor='lastName'>Last name: </label></div>
-            <Field id='lastName' name='lastName' />
-            <ErrorMessage name='lastName' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
+            <div><label htmlFor='name'>First name </label></div>
+            <Field id='name' name='name' />
+            <ErrorMessage name='name' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
           </div>
 
           <div className='form-fields'>
@@ -42,12 +47,12 @@ const EmailForm = () => {
             <ErrorMessage name='email' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
           </div>
 
-
           <div className='form-fields'>
             <div><label htmlFor='message'>Message:</label></div>
             <Field component='textarea' id='message' name='message' />
             <ErrorMessage name='message' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
           </div>
+          <button className='contact-button' type='submit'>Send</button>
         </Form>
       </Formik>
     </div>

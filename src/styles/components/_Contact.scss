@@ -6,6 +6,9 @@
   height: 100vh;
   
   form {
+
+    display: flex;
+    flex-direction: column;
   
     .contact-title {
       font-size: $title;
@@ -17,6 +20,10 @@
       display: flex;
       flex-direction: column;
       justify-content: center;      
+
+      .error-message {
+        color: $primary-color;
+      }
 
       input, textarea {
         background-color: $dark-purple;
