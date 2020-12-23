@@ -17,6 +17,15 @@
   .social-media {
     position: absolute;
     bottom: 50px;
+
+    a {
+      margin: 0 1rem;
+
+      &:hover,
+      &:active {
+        border: 1px solid $primary-color;
+      }
+    }
   }
 }
 
