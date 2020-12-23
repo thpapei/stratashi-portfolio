@@ -34,77 +34,77 @@ import zebraThumb from './image-thumbnails/zebratest4mask.jpg';
 
 export const images = [
   {
-    original: aa,
+    src: aa,
     thumbnail: aaThumb,
     description: 'AA'
   },
   {
-    original: secondtshirt,
+    src: secondtshirt,
     thumbnail: secondtshirtThumb,
     description: '2ndtshirt'
   },
   {
-    original: einsteinskeleton,
+    src: einsteinskeleton,
     thumbnail: einsteinskeletonThumb,
     description: 'einstein skeleton'
   },
   {
-    original: finalmaskisabigbusiness,
+    src: finalmaskisabigbusiness,
     thumbnail: finalmaskisabigbusinessThumb,
     description: 'final mask is a big business'
   },
   {
-    original: ghostinthesnow,
+    src: ghostinthesnow,
     thumbnail: ghostinthesnowThumb,
     description: 'ghostinthesnow'
   },
   {
-    original: landtostandtoheart,
+    src: landtostandtoheart,
     thumbnail: landtostandtoheartThumb,
     description: 'land to stand to heart'
   },
   {
-    original: movingonlookingaheadparachute,
+    src: movingonlookingaheadparachute,
     thumbnail: movingonlookingaheadparachuteThumb,
     description: 'moving on looking ahead'
   },
   {
-    original: nhandsalot,
+    src: nhandsalot,
     thumbnail: nhandsalotThumb,
     description: 'a lot of hands'
   },
   {
-    original: nkjbk,
+    src: nkjbk,
     thumbnail: nkjbkThumb,
     description: 'nkjbk'
   },
   {
-    original: reddoor,
+    src: reddoor,
     thumbnail: reddoorThumb,
     description: 'red door'
   },
   {
-    original: redrunnerrunning,
+    src: redrunnerrunning,
     thumbnail: redrunnerrunningThumb,
     description: 'red runner running'
   },
   {
-    original: runthrough,
+    src: runthrough,
     thumbnail: runthroughThumb,
     description: 'run through'
   },
   {
-    original: sketchash,
+    src: sketchash,
     thumbnail: sketchashThumb,
     description: 'ash'
   },
   {
-    original: tworl,
+    src: tworl,
     thumbnail: tworlThumb,
     description: 'tworl'
   },
   {
-    original: zebra,
+    src: zebra,
     thumbnail: zebraThumb,
     description: 'zebra'
   }

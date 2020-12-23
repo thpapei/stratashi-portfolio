@@ -1,20 +1,11 @@
-.picture-projects {
-
-  background: rgb(0,0,0);
+.picture-projects {  
+  overflow: hidden;
   background: linear-gradient(180deg, rgba(0,0,0,1) 84%, rgba(22,22,22,0) 100%);
   padding: 5rem 0;  
+  min-height: 100vh;
 
   h1 {
     text-align: center;
     font-size: $title;
   }  
-
-  .image-gallery-content .image-gallery-slide .image-gallery-image {
-    max-height: 50vh;
-    
-  }
-  
-  .fullscreen {
-    top: 30%;    
-  }
 }
