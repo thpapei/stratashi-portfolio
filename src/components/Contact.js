@@ -27,13 +27,12 @@ const EmailForm = () => {
 
   return (
     <div className='contact' id='contact'>
-
+      <h1 className='title'>Contact</h1>
       <Formik initialValues={initialValues}
         validationSchema={validationSchema}
         onSubmit={onSubmit}
       >
         <Form>
-          <h1 className='contact-title'>Contact</h1>
           <div className='form-fields'>
             <div><label htmlFor='name'>First name: </label></div>
             <Field id='name' name='name' />
