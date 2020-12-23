@@ -1,5 +1,6 @@
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import Home from "./Home";
 import Nav from "./Nav";
 import PictureProjects from "./PictureProjects";
@@ -14,6 +15,7 @@ const App = () => {
       <PictureProjects />
       <Videos />
       <Contact />
+      <Footer />
     </div>
   );
 }
