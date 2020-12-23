@@ -1,19 +1,19 @@
 // images
-import aa from './project-images/aa.png';
-import secondtshirt from './project-images/secondtshirt.png';
-import einsteinskeleton from './project-images/einstein-skeleton.png';
-import finalmaskisabigbusiness from './project-images/finalMaskisabigbusiness.png';
-import ghostinthesnow from './project-images/ghost_in_the_snow.jpeg';
-import landtostandtoheart from './project-images/landtostandtoheart0432.jpg';
-import movingonlookingaheadparachute from './project-images/movingonlookingaheadparachute.png';
-import nhandsalot from './project-images/nhandsalot.png';
-import nkjbk from './project-images/nkjbk.png';
-import reddoor from './project-images/reddoor.jpg';
-import redrunnerrunning from './project-images/redRunnerRunning.png';
-import runthrough from './project-images/runthrough.png';
-import sketchash from './project-images/sketchashCrazinessinsanity.png';
-import tworl from './project-images/tworl.png';
-import zebra from './project-images/zebratest4mask.png';
+import aa from './project-images-resized/aa.png';
+import secondtshirt from './project-images-resized/secondtshirt.png';
+import einsteinskeleton from './project-images-resized/einstein-skeleton.png';
+import finalmaskisabigbusiness from './project-images-resized/finalMaskisabigbusiness.png';
+import ghostinthesnow from './project-images-resized/ghost_in_the_snow.jpeg';
+import landtostandtoheart from './project-images-resized/landtostandtoheart0432.jpg';
+import movingonlookingaheadparachute from './project-images-resized/movingonlookingaheadparachute.png';
+import nhandsalot from './project-images-resized/nhandsalot.png';
+import nkjbk from './project-images-resized/nkjbk.png';
+import reddoor from './project-images-resized/reddoor.jpg';
+import redrunnerrunning from './project-images-resized/redRunnerRunning.png';
+import runthrough from './project-images-resized/runthrough.png';
+import sketchash from './project-images-resized/sketchashCrazinessinsanity.png';
+import tworl from './project-images-resized/tworl.png';
+import zebra from './project-images-resized/zebratest4mask.png';
 
 // thumbs
 import aaThumb from './image-thumbnails/aa.jpg';
