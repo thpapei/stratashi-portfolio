@@ -1,0 +1,28 @@
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: $l-size;
+  h1 {
+    text-align: center;
+    font-size: $title;
+  }
+
+  .items {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    .item {
+      margin: $s-size;
+      border: 2px solid transparent;
+      cursor: pointer;
+
+      &:hover,
+      &:active {
+        border: 2px solid $primary-color;
+      }
+    }
+  }
+  
+}

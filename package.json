@@ -54,6 +54,7 @@
     "react-dev-utils": "^11.0.1",
     "react-dom": "^17.0.1",
     "react-image-gallery": "^1.0.8",
+    "react-player": "^2.7.2",
     "react-refresh": "^0.8.3",
     "react-scroll": "^1.8.1",
     "resolve": "1.18.1",

@@ -3,7 +3,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Nav from "./Nav";
 import PictureProjects from "./PictureProjects";
-import Projects from "./Projects";
+import Videos from "./Videos";
 
 const App = () => {
   return (
@@ -11,8 +11,8 @@ const App = () => {
       <Nav />
       <Home />
       <About />
-      {/* <Projects /> */}
       <PictureProjects />
+      <Videos />
       <Contact />
     </div>
   );
