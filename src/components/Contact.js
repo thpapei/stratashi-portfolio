@@ -16,7 +16,7 @@ const EmailForm = () => {
   }
 
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
 
       <Formik initialValues={initialValues}
         validationSchema={validationSchema}

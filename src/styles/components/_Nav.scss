@@ -18,17 +18,17 @@
     width: 100%;
     
 
-    li {
+    a {
       color: $off-white;
       cursor: pointer;
       font-size: $l-size;
       position: relative;
       transition: color 200ms ease-in-out;              
+    }
 
+    li {
       &:hover,
-      &:active {
-        color: $primary-color;
-        animation: none;
+      &:active {          
         animation: skewEffect 120ms alternate infinite ease-in;              
       }
     }

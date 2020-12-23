@@ -3,7 +3,7 @@ import { images } from '../images/projects/images';
 
 const PictureProjects = () => {
   return (
-    <div className='picture-projects'>
+    <div className='picture-projects' id='projects'>
       <h1 className='picture-projects-title'>Pictures</h1>
       <ImageGallery items={images} lazyLoad={true} />
     </div>
