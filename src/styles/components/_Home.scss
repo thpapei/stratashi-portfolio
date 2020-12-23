@@ -6,9 +6,12 @@
   justify-content: center;  
   flex-direction: column;
 
-
   .name {
     font-size: $main-title;
+
+    @media (min-width: $desktop-breakpoint) {
+      font-size: $main-title-desktop;
+    }
   }
 
   .social-media {
