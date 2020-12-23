@@ -8,6 +8,10 @@
   align-items: center;
   flex-direction: column;
   
+  iframe {
+    position: static !important;
+  }
+
   h1 {
     text-align: center;
     font-size: $title;
