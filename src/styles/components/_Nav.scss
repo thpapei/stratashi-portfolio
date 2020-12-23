@@ -23,13 +23,11 @@
       cursor: pointer;
       font-size: $l-size;
       position: relative;
-      transition: color 200ms ease-in-out;              
-    }
-
-    li {
+      transition: color 200ms ease-in-out;   
+      
       &:hover,
       &:active {          
-        animation: skewEffect 120ms alternate infinite ease-in;              
+        color: lighten($primary-color, 10%);        
       }
     }
 
