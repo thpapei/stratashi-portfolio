@@ -14,7 +14,7 @@ const EmailForm = () => {
   const validationSchema = object({
     name: string().max(30, 'Name too long').required('Required'),
     email: string().email('Email is not valid').required('Required'),
-    message: string().max(10000, 'Your message is too long')
+    message: string().max(10000, 'Your message is too long').required('Required')
   });
 
   const onSubmit = (values, actions) => {
