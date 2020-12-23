@@ -36,7 +36,7 @@ const EmailForm = () => {
         <Form>
           <h1 className='contact-title'>Contact</h1>
           <div className='form-fields'>
-            <div><label htmlFor='name'>First name </label></div>
+            <div><label htmlFor='name'>First name: </label></div>
             <Field id='name' name='name' />
             <ErrorMessage name='name' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
           </div>
