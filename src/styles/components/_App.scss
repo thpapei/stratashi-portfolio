@@ -4,6 +4,9 @@
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-width: 350px;  
-  width: 100vw;
+  min-width: 350px;    
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }

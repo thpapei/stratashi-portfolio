@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   flex-direction: column;  
   height: 100vh;
-  width: 100vw;  
+  width: 100%;  
   h1 {
     text-align: center;
     font-size: $title;    
@@ -15,8 +15,9 @@
     flex-flow: row wrap;
 
     .item {
-      margin: $s-size;
+      margin: $xxs-size;
       border: 2px solid transparent;
+      width: 40%;
       cursor: pointer;
 
       &:hover,
