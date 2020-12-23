@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/stratashi-portfolio/static/css/main.9f9e8b62.chunk.css",
-    "main.js": "/stratashi-portfolio/static/js/main.046a3f1e.chunk.js",
-    "main.js.map": "/stratashi-portfolio/static/js/main.046a3f1e.chunk.js.map",
-    "runtime-main.js": "/stratashi-portfolio/static/js/runtime-main.63ddbccf.js",
-    "runtime-main.js.map": "/stratashi-portfolio/static/js/runtime-main.63ddbccf.js.map",
-    "static/js/2.8bdbb02c.chunk.js": "/stratashi-portfolio/static/js/2.8bdbb02c.chunk.js",
-    "static/js/2.8bdbb02c.chunk.js.map": "/stratashi-portfolio/static/js/2.8bdbb02c.chunk.js.map",
-    "static/js/3.fe4c8707.chunk.js": "/stratashi-portfolio/static/js/3.fe4c8707.chunk.js",
-    "static/js/3.fe4c8707.chunk.js.map": "/stratashi-portfolio/static/js/3.fe4c8707.chunk.js.map",
+    "main.css": "/stratashi-portfolio/static/css/main.753666e7.chunk.css",
+    "main.js": "/stratashi-portfolio/static/js/main.466cb8da.chunk.js",
+    "main.js.map": "/stratashi-portfolio/static/js/main.466cb8da.chunk.js.map",
+    "runtime-main.js": "/stratashi-portfolio/static/js/runtime-main.a8dfb4ef.js",
+    "runtime-main.js.map": "/stratashi-portfolio/static/js/runtime-main.a8dfb4ef.js.map",
+    "static/js/2.2c0a8d50.chunk.js": "/stratashi-portfolio/static/js/2.2c0a8d50.chunk.js",
+    "static/js/2.2c0a8d50.chunk.js.map": "/stratashi-portfolio/static/js/2.2c0a8d50.chunk.js.map",
+    "static/js/3.567e8341.chunk.js": "/stratashi-portfolio/static/js/3.567e8341.chunk.js",
+    "static/js/3.567e8341.chunk.js.map": "/stratashi-portfolio/static/js/3.567e8341.chunk.js.map",
     "index.html": "/stratashi-portfolio/index.html",
-    "static/css/main.9f9e8b62.chunk.css.map": "/stratashi-portfolio/static/css/main.9f9e8b62.chunk.css.map",
-    "static/js/2.8bdbb02c.chunk.js.LICENSE.txt": "/stratashi-portfolio/static/js/2.8bdbb02c.chunk.js.LICENSE.txt",
+    "static/css/main.753666e7.chunk.css.map": "/stratashi-portfolio/static/css/main.753666e7.chunk.css.map",
+    "static/js/2.2c0a8d50.chunk.js.LICENSE.txt": "/stratashi-portfolio/static/js/2.2c0a8d50.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/stratashi-portfolio/static/media/background.5a223f26.jpg",
     "static/media/aa.9f470fbe.png": "/stratashi-portfolio/static/media/aa.9f470fbe.png",
     "static/media/einstein-skeleton.981d6fdd.png": "/stratashi-portfolio/static/media/einstein-skeleton.981d6fdd.png",
@@ -32,9 +32,9 @@
     "static/media/zebratest4mask.a6298590.png": "/stratashi-portfolio/static/media/zebratest4mask.a6298590.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.63ddbccf.js",
-    "static/js/2.8bdbb02c.chunk.js",
-    "static/css/main.9f9e8b62.chunk.css",
-    "static/js/main.046a3f1e.chunk.js"
+    "static/js/runtime-main.a8dfb4ef.js",
+    "static/js/2.2c0a8d50.chunk.js",
+    "static/css/main.753666e7.chunk.css",
+    "static/js/main.466cb8da.chunk.js"
   ]
 }
