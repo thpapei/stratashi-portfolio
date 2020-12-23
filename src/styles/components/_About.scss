@@ -9,10 +9,6 @@
   width: 100vw;    
 
   .title {
-    font-size: $title;
-
-    @media (min-width: $desktop-breakpoint) {
-      font-size: $main-title-desktop
-    }
+    font-size: $title;    
   }
 }
