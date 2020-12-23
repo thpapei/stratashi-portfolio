@@ -36,76 +36,106 @@ export const images = [
   {
     src: aa,
     thumbnail: aaThumb,
-    description: 'AA'
+    thumbnailWidth: 320,
+    thumbnailHeight: 120,
+    caption: 'AA'
   },
   {
     src: secondtshirt,
     thumbnail: secondtshirtThumb,
-    description: '2ndtshirt'
+    thumbnailWidth: 160,
+    thumbnailHeight: 120,
+    caption: '2ndtshirt'
   },
   {
     src: einsteinskeleton,
     thumbnail: einsteinskeletonThumb,
-    description: 'einstein skeleton'
+    thumbnailWidth: 200,
+    thumbnailHeight: 120,
+    caption: 'einstein skeleton'
   },
   {
     src: finalmaskisabigbusiness,
     thumbnail: finalmaskisabigbusinessThumb,
-    description: 'final mask is a big business'
+    thumbnailWidth: 320,
+    thumbnailHeight: 120,
+    caption: 'final mask is a big business'
   },
   {
     src: ghostinthesnow,
     thumbnail: ghostinthesnowThumb,
-    description: 'ghostinthesnow'
+    thumbnailWidth: 250,
+    thumbnailHeight: 120,
+    caption: 'ghostinthesnow'
   },
   {
     src: landtostandtoheart,
     thumbnail: landtostandtoheartThumb,
-    description: 'land to stand to heart'
+    thumbnailWidth: 300,
+    thumbnailHeight: 120,
+    caption: 'land to stand to heart'
   },
   {
     src: movingonlookingaheadparachute,
     thumbnail: movingonlookingaheadparachuteThumb,
-    description: 'moving on looking ahead'
+    thumbnailWidth: 320,
+    thumbnailHeight: 120,
+    caption: 'moving on looking ahead'
   },
   {
     src: nhandsalot,
     thumbnail: nhandsalotThumb,
-    description: 'a lot of hands'
+    thumbnailWidth: 200,
+    thumbnailHeight: 120,
+    caption: 'a lot of hands'
   },
   {
     src: nkjbk,
     thumbnail: nkjbkThumb,
-    description: 'nkjbk'
+    thumbnailWidth: 320,
+    thumbnailHeight: 120,
+    caption: 'nkjbk'
   },
   {
     src: reddoor,
     thumbnail: reddoorThumb,
-    description: 'red door'
+    thumbnailWidth: 300,
+    thumbnailHeight: 120,
+    caption: 'red door'
   },
   {
     src: redrunnerrunning,
     thumbnail: redrunnerrunningThumb,
-    description: 'red runner running'
+    thumbnailWidth: 280,
+    thumbnailHeight: 120,
+    caption: 'red runner running'
   },
   {
     src: runthrough,
     thumbnail: runthroughThumb,
-    description: 'run through'
+    thumbnailWidth: 250,
+    thumbnailHeight: 120,
+    caption: 'run through'
   },
   {
     src: sketchash,
     thumbnail: sketchashThumb,
-    description: 'ash'
+    thumbnailWidth: 320,
+    thumbnailHeight: 120,
+    caption: 'ash'
   },
   {
     src: tworl,
     thumbnail: tworlThumb,
-    description: 'tworl'
+    thumbnailWidth: 320,
+    thumbnailHeight: 120,
+    caption: 'tworl'
   },
   {
     src: zebra,
     thumbnail: zebraThumb,
-    description: 'zebra'
+    thumbnailWidth: 320,
+    thumbnailHeight: 120,
+    caption: 'zebra'
   }
 ]
