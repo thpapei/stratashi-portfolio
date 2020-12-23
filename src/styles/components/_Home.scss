@@ -4,9 +4,16 @@
   width: 100vw;     
   display: flex;
   justify-content: center;  
+  flex-direction: column;
+
 
   .name {
     font-size: $main-title;
+  }
+
+  .social-media {
+    position: absolute;
+    bottom: 50px;
   }
 }
 
