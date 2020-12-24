@@ -24,11 +24,12 @@
 
       img {
         height: 100%;
-        width: calc((100% / 3) - 2rem);         
+        width: calc((100% / 3) - 2rem);
+        transition: transform 200ms ease; 
         
         &:hover,
-        &:active {
-          background: radial-gradient(circle, rgba(255, 0, 0, 0.356) 5%, rgba(69, 63, 251, 0) 87%);
+        &:active {          
+          transform: scale(1.1);
         }
       }
     }
