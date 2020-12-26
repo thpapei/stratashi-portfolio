@@ -8,6 +8,8 @@
 
   .name {
     font-size: $main-title;
+    position: relative;
+    bottom: 100px;
 
     @media (min-width: $desktop-breakpoint) {
       font-size: $main-title-desktop;
