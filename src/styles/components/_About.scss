@@ -1,7 +1,6 @@
 .about {
   align-items: center;
-  background: $dark-gray;
-  background: linear-gradient(180deg, transparent 10%, $dark-blue 80%, black 100%); 
+  background: $dark-gray;  
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -10,5 +9,9 @@
 
   .title {
     font-size: $title;    
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
