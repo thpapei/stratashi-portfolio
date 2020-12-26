@@ -1,8 +1,11 @@
 import { Formik, Field, ErrorMessage, Form } from 'formik';
 import { string, object } from 'yup';
 import emailjs from 'emailjs-com';
+import { useState } from 'react';
 
 const EmailForm = () => {
+
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
   const initialValues = {
     name: '',
@@ -20,6 +23,11 @@ const EmailForm = () => {
     emailjs.send('service_mjiqvar', 'contact_form', values, process.env.REACT_APP_USER_ID)
       .then((result) => {
         console.log(result.text);
+        actions.setSubmitting(false);
+        setShowConfirmation(true);
+        setTimeout(() => {
+          setShowConfirmation(false);
+        }, 3000);
       }, (error) => {
         console.log(error.text);
       });
@@ -32,26 +40,32 @@ const EmailForm = () => {
         validationSchema={validationSchema}
         onSubmit={onSubmit}
       >
-        <Form>
-          <div className='form-fields'>
-            <div><label htmlFor='name'>Name: </label></div>
-            <Field id='name' name='name' />
-            <ErrorMessage name='name' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
-          </div>
+        {({ isSubmitting }) => (
+          <Form>
+            <div className='form-fields'>
+              <div><label htmlFor='name'>Name: </label></div>
+              <Field id='name' name='name' />
+              <ErrorMessage name='name' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
+            </div>
 
-          <div className='form-fields'>
-            <div><label htmlFor='email'>Email: </label></div>
-            <Field id='email' name='email' />
-            <ErrorMessage name='email' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
-          </div>
+            <div className='form-fields'>
+              <div><label htmlFor='email'>Email: </label></div>
+              <Field id='email' name='email' />
+              <ErrorMessage name='email' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
+            </div>
 
-          <div className='form-fields'>
-            <div><label htmlFor='message'>Message:</label></div>
-            <Field component='textarea' id='message' name='message' />
-            <ErrorMessage name='message' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
-          </div>
-          <button className='contact-button' type='submit'>Send</button>
-        </Form>
+            <div className='form-fields'>
+              <div><label htmlFor='message'>Message:</label></div>
+              <Field component='textarea' id='message' name='message' />
+              <ErrorMessage name='message' render={errorMessage => <div className='error-message'>{errorMessage}</div>} />
+            </div>
+            {showConfirmation &&
+              <div >
+                <h3 className='confirmation'>Message successfully sent!</h3>
+              </div>
+            }
+            {isSubmitting ? <p>Sending...</p> : <button className='contact-button' type='submit' >Send</button>}
+          </Form>)}
       </Formik>
     </div>
   );

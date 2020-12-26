@@ -19,6 +19,10 @@
     width: 100%;
     align-items: center;
 
+    .confirmation {
+      color: rgb(0, 92, 0);
+    }
+    
     .form-fields {
       margin: $l-size 0;
       display: flex;
@@ -28,6 +32,8 @@
       .error-message {
         color: $primary-color;
       }
+
+      
 
       input, textarea {
         background-color: $dark-gray;
