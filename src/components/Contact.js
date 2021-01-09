@@ -20,7 +20,7 @@ const EmailForm = () => {
   });
 
   const onSubmit = (values, actions) => {
-    emailjs.send('service_mjiqvar', 'contact_form', values, process.env.REACT_APP_USER_ID)
+    emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_CONTACT_FORM_NAME, values, process.env.REACT_APP_USER_ID)
       .then((result) => {
         console.log(result.text);
         actions.setSubmitting(false);
@@ -30,6 +30,7 @@ const EmailForm = () => {
         }, 3000);
       }, (error) => {
         console.log(error.text);
+        actions.setSubmitting(false);
       });
   }
 
